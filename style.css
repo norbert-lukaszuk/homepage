@@ -10,6 +10,8 @@ body {
 .secondHeader{
 	color: greenyellow;
 	background: black;
+	padding-left: 10px;
+	border-radius: 30px;
 	font-size: 36px;
 }
 
@@ -20,7 +22,9 @@ body {
 .famousPeople{
 	color: gold;
 	font-size: 28px;
+	padding-left: 10px;
 	background: black;
+	border-radius: 30px;
 }
 
 .footer{

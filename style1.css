@@ -24,11 +24,11 @@
 .paragraph {
 	color: black;
 	background: whitesmoke;
-	max-height: 80px;   
+	/* max-height: 80px;    */
 	/* maksymalna wysokość bloku wynosi 80 pixeli */
-	overflow: scroll; 
+	/* overflow: scroll;  */
 	/* gdy zostanie przekroczona wysokość 80 pixeli dodane zostaną paski do przewijania tekstu */
-	width: 80vw;
+	/* width: 80vw; */
 	/*szerokość paragrafu wynosi 80% szerokości ekranu i dynamicznie się zmienia*/
 	/* padding-left: 8px; */
 	/* przesuwa tekst w bloku w prawo 0 8px tworząc margines z lewej strony */
