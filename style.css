@@ -1,0 +1,29 @@
+body {
+	background: #fefefe;
+}
+.firstHeader{
+	color: black;
+	font-size: 36px;
+	margin: 10px auto;
+}
+
+.secondHeader{
+	color: greenyellow;
+	background: black;
+	font-size: 36px;
+}
+
+.thirdHeader {
+	color: rgb(93, 199, 32);
+
+}
+.famousPeople{
+	color: gold;
+	font-size: 28px;
+	background: black;
+}
+
+.footer{
+	color: black;
+	font: caption;
+}

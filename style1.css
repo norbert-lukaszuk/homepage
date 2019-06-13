@@ -1,0 +1,44 @@
+.header {
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	background: gray;
+}
+
+.header1 {
+	color: #4b4f51;
+	font-size: 36px;
+	width: 50vw;	
+	margin: 10px auto;
+}
+
+.header2 {
+	color: black;
+	font-size: 28px;
+}
+.image{
+	width: 50vw;
+	margin: 0 auto;
+}
+
+.paragraph {
+	color: black;
+	background: whitesmoke;
+	/* max-height: 80px;   */
+	/* maksymalna wysokość bloku wynosi 80 pixeli */
+	/* overflow: scroll; */
+	/* gdy zostanie przekroczona wysokość 80 pixeli dodane zostaną paski do przewijania tekstu */
+	/* width: 80vw; */
+	/*szerokość paragrafu wynosi 80% szerokości ekranu i dynamicznie się zmienia*/
+	/* padding-left: 8px; */
+	/* przesuwa tekst w bloku w prawo 0 8px tworząc margines z lewej strony */
+	padding: 10px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: aqua;
+	border-radius: 30px;
+}
+
+body {
+	background: #a1a499;
+}
