@@ -17,8 +17,23 @@
 	font-size: 28px;
 }
 .image{
-	width: 50vw;
-	margin: 0 auto;
+	border-radius: 20px;
+}
+.textBox{
+	width: 350px;
+	height: 350px;
+	top: 350px;
+	background: palegreen;
+}
+
+.imageBox{
+	width: 350px;
+	height: 350px;
+	top: 20px;
+	left: 350px;
+	
+	box-sizing: content-box;
+	background: rebeccapurple;
 }
 
 .paragraph {
