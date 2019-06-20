@@ -52,6 +52,13 @@
 	border-width: 3px;
 	border-color: aqua;
 	border-radius: 30px;
+	overflow: hidden;
+}
+.imageApple{
+
+	float: left;
+	margin: 5px;
+
 }
 
 body {

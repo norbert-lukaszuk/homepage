@@ -26,6 +26,8 @@ body {
 	border: 5px;
 	border-style: solid;
 	border-color: antiquewhite;
+	margin: 0 25px 15px 10px;
+	float: left;
 }
 .teslaImg{
 	border-radius: 45px;
@@ -34,14 +36,14 @@ body {
 	border-color: black;
 	
 }
-.firstHeader{
+.mainPage__header{
 	color: black;
 	font-size: 36px;
 	margin: 10px auto;
 	padding-top: 50px;
 }
 
-.secondHeader{
+.mainPage__section{
 	color: greenyellow;
 	background: black;
 	padding-left: 10px;
@@ -50,6 +52,7 @@ body {
 	width: 700px;
 	margin: 20px auto;
 	text-align: center;
+	clear: left;
 }
 
 .thirdHeader {
@@ -60,8 +63,9 @@ body {
 	padding-left: 10px;
 	border-radius: 30px;
 	
-
-
+}
+#photo{
+	object-position: 50% 50%;
 }
 .noUnderline{
 	text-decoration: none;
