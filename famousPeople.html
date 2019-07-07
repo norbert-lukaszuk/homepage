@@ -2,42 +2,91 @@
 <html lang="pl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Famous people of computer era </title>
-    <link href="normalize.css" rel="stylesheet" type="text/css">
-    <link href="styles/famousPeople.css" rel="stylesheet" type="text/css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Famous people of computer era </title>
+	<link href="normalize.css" rel="stylesheet" type="text/css">
+	<link href="styles/famousPeople.css" rel="stylesheet" type="text/css">
 </head>
+<nav class="navigation">
+	<ul class="navigationList navigationList--js">
+	<li><a class="link__menu" class="link__menu" href="index.html">Home</a></li>
+	<li>About me</li>
+	<li>FAQ</li>
+	<li>Links</li>
+</ul>
 
+</nav>
+<button class="menu__button menu__button--js">≡</button>
 <body class="body">
-    <h1> Twórcy ery komputerów osobistych</h1>
-    <main class="grid">
+	<h1> Twórcy ery komputerów osobistych</h1>
+	<main class="grid">
 
-        <div class="grid__element">
-            <p class="gridElement__logoBar">
-                <img class="gridElement__logoComodore" src="img/commodore logo 100x100px.png">
-                <img class="gridElement__logoAtari" src="img/atari logo 100x100px.png">
-                <img class="gridElement__tramielPhoto--round" src="img/jack tramiel 100x100px.jpg">
-            </p>
-            <a class="link" href="index.html">
-            <strong class="gridElement__name">Jack Tramiel</strong>
-            </a>
-            <p class="gridElement__description">
-                Założyciel i wielotni prezes Commodore International oraz Atari Corporation.
-            </p>
-        </div>
+		<div class="grid__element">
+			<p class="gridElement__logoBar">
+					<img class="gridElement__tramielPhoto--round" src="img/jack tramiel 100x100px.jpg">
+				<img class="gridElement__logoApple" src="img/commodore logo 100x100px.png">
+				<img class="gridElement__logoAtari" src="img/atari logo 100x100px.png">
+				
+			</p>
+			<a class="link" href="index.html">
+				<strong class="gridElement__name">Jack Tramiel</strong>
+			</a>
+			<p class="gridElement__description">
+				Założyciel i wielotni prezes Commodore International oraz Atari Corporation.
+			</p>
+		</div>
 
-        <div class="grid__element">element#2</div>
-        <div class="grid__element">element#3</div>
-        <div class="grid__element">element#4</div>
+		<div class="grid__element">
+			<p class="gridElement__logoBar">
+				<img class="gridElement__logoApple" src="img/apple logo 100x100px.png">
+				<img class="gridElement__logoNeXT" src="img/NeXT logo87x100px.png">
+				<img class="gridElement__jobsPhoto--round" src="img/steve jobs 100x100px.jpg">
+			</p>
+			<a class="link" href="index.html">
+				<strong class="gridElement__name">Steve Jobs</strong>
+			</a>
+			<p class="gridElement__description">
+				Współzałożyciel i prezes Apple Inc. oraz NeXT a także prezes i
+				większościowy udziałowiec Pixar.
+			</p>
+		</div>
+		<div class="grid__element">
+				<p class="gridElement__logoBar">
+						<img class="gridElement__logoWindows" src="img/windows logo 100x100px.png">
+						<img class="gridElement__logoMicrosoft" src="img/microsoft logo 100x100px.png">
+						<img class="gridElement__gatesPhoto--round" src="img/Bill Gates 100x100px.jpg">
+					</p>
+					<a class="link" href="index.html">
+						<strong class="gridElement__name">Bill Gates</strong>
+					</a>
+					<p class="gridElement__description">
+						Microsoft
+					</p>
+
+		</div>
+		<div class="grid__element">
+
+			<p class="gridElement__logoBar">
+				<img class="gridElement__logoGit" src="img/git logo.png">
+				<img class="gridElement__logoLinux" src="img/linux logo.png">
+				<img class="gridElement__torvaldsPhoto--round" src="img/linus torvalds 100x100px.jpg">
+			</p>
+			<a class="link" href="index.html">
+				<strong class="gridElement__name">Linus Torvalds</strong>
+			</a>
+			<p class="gridElement__description">
+				Linux i Git
+			</p>
+		</div>
 
 
-    </main>
+	</main>
 </body>
 
 <footer>
-    <p class="footer__paragraph">Copyright © <strong>Norbert Łukaszuk</strong></p>
+	<p class="footer__paragraph">Copyright © <strong>Norbert Łukaszuk</strong></p>
 </footer>
-
+<script src="scripts/famousPeople.js"></script>
 </html>
