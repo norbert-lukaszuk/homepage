@@ -1,3 +1,11 @@
+html{
+	box-sizing: border-box;
+}
+
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+
 body {
 	background: #fefefe;
 }
@@ -19,15 +27,15 @@ body {
 }
 .box{
 	position: sticky;
-	width: 250px;
-	height: 250px;
+	/* width: 250px;
+	height: 350px;
 	box-sizing: border-box;
 	background: yellowgreen;
 	border: 5px;
 	border-style: solid;
-	border-color: antiquewhite;
-	margin: 0 25px 15px 10px;
-	float: left;
+	border-color: antiquewhite; */
+	margin: 0 25px 35px 10px;
+	/* float: left; */
 }
 .teslaImg{
 	border-radius: 45px;
@@ -36,24 +44,25 @@ body {
 	border-color: black;
 	
 }
-.mainPage__header{
+.header__mainPage{
 	color: black;
 	font-size: 36px;
 	margin: 10px auto;
 	padding-top: 50px;
 }
 
-.mainPage__section{
+.secondHeader {
 	color: greenyellow;
 	background: black;
-	padding-left: 10px;
+	padding: 0 10px;
 	border-radius: 30px;
 	font-size: 36px;
-	width: 700px;
-	margin: 20px auto;
+	/* margin: 20px auto; */
 	text-align: center;
-	clear: left;
+	/* clear: left; */
 }
+
+ 
 
 .thirdHeader {
 	color: rgb(93, 199, 32);
@@ -63,22 +72,34 @@ body {
 	padding-left: 10px;
 	border-radius: 30px;
 	
+	
+	
 }
 #photo{
-	object-position: 50% 50%;
+	width: 100%;
+	max-width: 250px;
+	border-radius: 30px;
 }
+
 .noUnderline{
 	text-decoration: none;
 }
 
+
 .famousPeople{
 	color: gold;
 	font-size: 28px;
-	padding-left: 10px;
+	padding: 10px;
 	background-color: black;
 	border-radius: 30px;
-	width: 700px;
-	margin: 10px auto;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	/* margin: 10px auto; */
+	/* clear: left; */
+}
+.famousPeople__header{
+	width: 80vw;
+
 }
 
 .footer{
