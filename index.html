@@ -6,26 +6,28 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
-	<style>
+	
 
-	</style>
-
-	<link href="style.css" rel="stylesheet" type="text/css">
-	<link href="flex.css" rel="stylesheet" type="text/css">
+	<!-- <link href="style.css" rel="stylesheet" type="text/css"> -->
+	<!-- <link href="flex.css" rel="stylesheet" type="text/css"> -->
 	<link href="normalize.css" rel="stylesheet" type="text/css">
-
+	<link href="styles/famousPeople.css" rel="stylesheet" type="text/css">
 
 </head>
 
-<header class="fixedNavi">
-	<a class="header" href="index.html">Strona główna</a>
-	<a class="header" href="index1.html">O mnie</a>
-	<a class="header" href="famousPeople.html">Sławy PC</a>
+<nav class="navigation">
+	<ul class="navigationList navigationList--js">
+		<li><a class="link__menu" href="index1.html">About me</a></li>
+		<li><a class="link__menu" href="famousPeople.html">Famous people in PC histoty</a></li>
+		<li><a class="link__menu" href="faq.html">FAQ</a></li>
+	</ul>
 
-</header>
+</nav>
+<button class="menu__button menu__button--js">≡</button>
 
 <body>
-	<main>
+	<h1>Main Page</h1>
+	<!-- <main>
 		<header>
 			<h1 class="header__mainPage">Norbert Łukaszuk - Strona Główna</h1>
 
@@ -103,7 +105,7 @@
 
 
 
-	</main>
+	</main> -->
 </body>
-
+<script src="scripts/famousPeople.js"></script>
 </html>

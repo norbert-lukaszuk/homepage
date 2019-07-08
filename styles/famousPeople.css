@@ -90,6 +90,7 @@ h1 {
 .link__menu{
     text-decoration: none;
     color: black;
+   
 }.link__menu:hover{
     color: white;
 }
@@ -117,16 +118,18 @@ h1 {
     margin: 0 10px;
     
     
+    
 }
 .navigationList{
     display: none;
 }
 .navigationList--js{
-
+    list-style: none;
 }
 .navigationList--visible{
     display: flex;
     flex-direction: column;
+    list-style: none;
 }
 /* Breakpoint po którym zmienia się ilość kolumn z 2 na 1.
 Funkcja potrzebna do wyświetlania na mobilkach */
