@@ -90,6 +90,8 @@ h1 {
 .link__menu{
     text-decoration: none;
     color: black;
+}.link__menu:hover{
+    color: white;
 }
 .gridElement__name:hover{
     color: gray;
@@ -104,6 +106,9 @@ h1 {
     font-weight: bold;
     margin: 0 20px;
     
+}
+.menu__button:hover{
+    color:white;
 }
 .navigation{
     background: hotpink;
@@ -122,4 +127,11 @@ h1 {
 .navigationList--visible{
     display: flex;
     flex-direction: column;
+}
+/* Breakpoint po którym zmienia się ilość kolumn z 2 na 1.
+Funkcja potrzebna do wyświetlania na mobilkach */
+@media (max-width:640px){
+    .grid{
+        grid-template-columns: 1fr;
+    }
 }
