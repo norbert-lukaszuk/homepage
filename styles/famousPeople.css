@@ -17,7 +17,7 @@ html {
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 350px);
+    grid-template-rows: repeat(2, minmax(350px,auto));
     grid-gap: 10px 10px;
     margin: 0 10px;
 }
