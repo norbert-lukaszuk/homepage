@@ -4,7 +4,7 @@ body{
 }
 .grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 50px 1fr;
+    grid-template-columns: 2fr 2fr 30px 1fr;
     grid-template-rows: repeat(4, minmax(150px,auto));
     border: solid white 1px;
     grid-gap: 10px;
@@ -29,27 +29,47 @@ body{
 }
 .articles__grid{
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 5fr;
     grid-template-rows: repeat(4, minmax(100px, auto));
-    grid-gap: 20px 8px;
-    margin: 10px;
+    grid-gap: 8px 8px;
+    margin: 0 10px 10px 0;
     
 }
 .articles__photo{
-    background: rgb(101, 216, 151);
+    /* background: rgb(101, 216, 151); */
+    align-self: center;
+    justify-self: center;
+    
+}
+
+.articles__photo--round{
+    border-radius: 50%;
 }
 .articles__text{
     background: rgb(149, 33, 179);
 }
-
-.three{
+.navigation__item{
+    list-style: none;
+    padding: 10px 0;
+}
+.sidebar{
     background: rgb(101, 216, 151);
     grid-column: 4/5;
     grid-row:2/4;
     
 }
+.sidebar__navigation{
+
+}
+.navigation__items{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 .four{
-    background: hotpink;
+    background: rgb(101, 216, 151);
+    grid-column: 4/5;;
+    grid-column: 1/5;
     grid-row: 4/5;
     
 }
