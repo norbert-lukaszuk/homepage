@@ -7,21 +7,52 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Forms</title>
 
-	<link href="normalize.css" rel="stylesheet" type="text/css">
-	<link href="styles/famousPeople.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="styles/style.css" type="text/css">
 </head>
-<nav class="navigation">
-	<ul class="navigationList navigationList--js">
-		<li><a class="link__menu" href="index1.html">About me</a></li>
-		<li><a class="link__menu" href="famousPeople.html">Famous people in PC histoty</a></li>
-		<li><a class="link__menu" href="faq.html">FAQ</a></li>
-	</ul>
 
-</nav>
-<button class="menu__button menu__button--js">≡</button>
+<style>
+	body {
+		max-width: 960px;
+		margin: 0 auto;
+		background: rgb(204, 198, 198);
+	}
+
+	.navigationList {
+		list-style: none;
+		text-decoration: none;
+		padding: 0 20px;
+	}
+
+	.link__menu {
+		text-decoration: none;
+		color: black;
+	}
+	nav{
+		border: black dotted 1px;
+		position: fixed;
+		background: rgba(37, 192, 44, 0.418)
+		
+		
+	}
+	h1{
+		padding-top:100px;
+	}
+
+</style>
+
+
+
+
 
 <body class="body">
+		<nav>
+				<ul class="navigationList">
+					<li><a class="link__menu" href="index.html">Home Page</a></li>
+					<li><a class="link__menu" href="famousPeople.html">Famous people in PC histoty</a></li>
+					
+				</ul>
+			
+			</nav>
+
 	<h1>FORMS</h1>
 	<form action="https://dev.cotenfrontend.pl" method="POST">
 		<label for="userName">Plaese enter User Name</label><br><br>
@@ -42,6 +73,14 @@
 		<input type="radio" name="age" id="option-4" value="40+ years">
 		<label for="option-4">40+ years</label><br>
 		<hr>
+		<p>Please select your options</p>
+		<input type="checkbox" name="checkbox1" id="checkbox1">
+		<label for="checkbox1">Option 1</label><br>
+		<input type="checkbox" name="checkbox2" id="checkbox2">
+		<label for="checkbox2">Option 2</label><br>
+		<input type="checkbox" name="checkbox3" id="checkbox3">
+		<label for="checkbox3">Option 3</label><br>
+		<hr>
 		<label for="questions">Select the helping question:</label><br><br>
 		<select name="question" id="question">
 			<option value="q1">Whats your dog name?</option>
@@ -49,6 +88,13 @@
 		</select><br><br>
 		<input type="text" id="answer" name="answer" placeholder="Enter your answer here"><br><br>
 		<hr>
+		<p>Select value in range</p>
+		<input type="range" name="range" id="range" min="1" max="100" step="1" value="10">
+		<hr>
+		<p>Please slect an image for your avatar (only .jpg or .png files)</p>
+		<input type="file" name="avatar" id="avatar" accept=".jpg, .png" multiple>
+		<hr>
+
 		<label for="description">Write somethig about yourself:</label><br><br>
 		<textarea name="description" id="description" cols="30" rows="10" placeholder="Start typing :)"></textarea><br><br>
 		<input type="submit" value="Submit">
