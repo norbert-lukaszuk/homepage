@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pseudoelements</title>
+</head>
+<style>
+    html {
+        background: rgb(135, 181, 224);
+        font-family: Arial, Helvetica;
+
+    }
+
+    body {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    .hover__header{
+        text-align: center;
+    }
+
+    .hover__header:hover{
+        color:tomato;
+    }
+    .image__box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main__header {
+        text-align: center;
+
+    }
+    .paragraph{
+        text-align: justify;
+    }
+
+    .second__header {
+        text-align: center;
+
+    }
+
+    .second__header::before {
+        display: inline-block;
+        content: "::before ";
+        background: hotpink;
+        color: white;
+        border: 2px solid;
+        margin-right: 5px;
+    }
+
+    .second__header::after {
+        display: inline-block;
+        content: "::after";
+        background: rgb(95, 189, 131);
+        color: white;
+        border: 2px solid;
+        margin-left: 5px;
+    }
+</style>
+
+<body>
+    <h1 class="main__header">Pseudoelements</h1>
+    <h2 class="main__header">::before and ::after</h2>
+    <h2 class="second__header">This is the text that is sorounded by the elements</h2>
+    <p class="paragraph">Pseudoelement <strong>::before</strong> lub <strong>::after</strong> umieszcza się bezpośrednio przed blokiem lub
+        za nim i może być dowolniestylowany. Zawartość tych pseudoelementów jest wpisywana przez własność
+        <strong>content:" ";</strong> może ona być pusta ale jest obowiązkowa bo bez tego pseudoelementy się nie
+        wyświetlą.
+    </p>
+    <div class="image__box">
+       <img src="img/before&after.png" alt="Before & after elements code">    
+    </div>
+    <hr>
+    <h2 class="main__header">:hover</h2>
+    <h2 class="hover__header">Hover over this text and You will see it's changing his color</h2>
+    <p class="paragraph"><strong>:hover</strong> pozwala zmieniać właściwość elementu po najechaniu
+    na niego myszką np tak jak poniżej zmnienić kolor fontu.</p>
+    <div class="image__box">
+        <img src="img/hover.png" alt="Hover code snippet">
+    </div>
+    <hr>
+</body>
+
+</html>

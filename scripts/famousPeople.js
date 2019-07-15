@@ -5,3 +5,7 @@ menuButton.addEventListener('click',(e)=>{
    
     
 });
+const obiekt={
+    zmienna:135,
+    napis: 'napis',
+}

@@ -98,6 +98,19 @@ h1 {
     color: gray;
     transition: 1s;
 }
+.main__header{
+    font-family: Arial, Helvetica;
+
+}
+.main__header::before{
+    content: "::before";
+    display: inline-block;
+    /* width: 25px; */
+    /* height: 25px; */
+    background: hotpink;
+    border: solid 2px;
+
+}
 .menu__button{
     border: none;
     background: none;
