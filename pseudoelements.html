@@ -30,6 +30,13 @@
         flex-direction: column;
         align-items: center;
     }
+    .link{
+        text-decoration: none;
+        color: black;
+    }
+    .link:visited{
+        color: gray;
+    }
     .main__header {
         text-align: center;
 
@@ -60,6 +67,12 @@
         border: 2px solid;
         margin-left: 5px;
     }
+    .visited__header{
+
+    }
+    /* .visited__header:visited{
+        color: gray;
+    } */
 </style>
 
 <body>
@@ -83,6 +96,8 @@
         <img src="img/hover.png" alt="Hover code snippet">
     </div>
     <hr>
+    <h2 class="main__header">:visited</h2>
+    <h2 class="visited__header"><a class="link" href="forms.html">If You click on this text it will turn gray</a></h2>
 </body>
 
 </html>
