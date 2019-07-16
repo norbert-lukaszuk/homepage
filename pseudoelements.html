@@ -13,6 +13,7 @@
         font-family: Arial, Helvetica;
 
     }
+    
 
     body {
         max-width: 960px;
@@ -30,12 +31,33 @@
         flex-direction: column;
         align-items: center;
     }
+<<<<<<< HEAD
     .link{
         text-decoration: none;
         color: black;
     }
     .link:visited{
         color: gray;
+=======
+
+    .list{
+        
+        font-weight: bold;
+    }
+    .list__box{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .listItem{
+        font-weight: normal;
+    }
+    .listItem:first-child{
+        background: red;
+    }
+    .listItem:last-child{
+        background: greenyellow;
+>>>>>>> 2eeb12a5a5b7b1421f5450d564d5ddf398e44c2d
     }
     .main__header {
         text-align: center;
@@ -76,6 +98,7 @@
 </style>
 
 <body>
+    
     <h1 class="main__header">Pseudoelements</h1>
     <h2 class="main__header">::before and ::after</h2>
     <h2 class="second__header">This is the text that is sorounded by the elements</h2>
@@ -98,6 +121,20 @@
     <hr>
     <h2 class="main__header">:visited</h2>
     <h2 class="visited__header"><a class="link" href="forms.html">If You click on this text it will turn gray</a></h2>
+  <div class="list__box">
+      <ul class="list">LIST
+          <li class="listItem">List item 1 --this is :first-child element</li>
+          <li class="listItem">List item 2
+              <ul>
+                  <li class="listItem">List item 1 --this is :first-child element </li>
+                  <li class="listItem">List item 2</li>
+                  <li class="listItem">List item 3 --this is :last-child element</li>
+              </ul>
+          </li>
+          <li class="listItem">List item 3</li>
+          <li class="listItem">List item 4 --this is :last-child element</li>
+      </ul>
+  </div>
 </body>
 
 </html>
