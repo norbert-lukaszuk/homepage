@@ -31,8 +31,15 @@
         flex-direction: column;
         align-items: center;
     }
+
     .list{
+        
         font-weight: bold;
+    }
+    .list__box{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
     .listItem{
         font-weight: normal;
@@ -97,7 +104,7 @@
         <img src="img/hover.png" alt="Hover code snippet">
     </div>
     <hr>
-  <div>
+  <div class="list__box">
       <ul class="list">LIST
           <li class="listItem">List item 1 --this is :first-child element</li>
           <li class="listItem">List item 2
