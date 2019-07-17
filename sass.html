@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>SASS</title>
 </head>
 <style>
 html{
@@ -17,6 +17,7 @@ body{
 }
 .bolder{
     color:tomato;
+    font-size: 21px;
 }
 .paragraph{
     font-size: 18px;
@@ -36,6 +37,11 @@ body{
     przez <b class="bolder">@include</b>.
     </p>
     <img src="img/@mixin @include.png" alt="@mixin & $include">
-
+    <p class="paragraph">Funkcję <b class="bolder">@mixin</b> możemy także zdefiniować z parametrami, które podamy wywołując 
+    funkcję za pomocą <b class="bolder">@include</b>.
+    </p>
+    <img src="img/@mixin @include with parametr.png" alt="">
+    <p class="paragraph">Parent selector <b class="bolder">&</b> pozwala tworzyć nowe klasy będące dziećmi klas wyższych. </p>
+    <img src="img/& parent selector.png">
 </body>
 </html>
