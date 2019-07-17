@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+html{
+    font-family: Arial, Helvetica;
+    background: rgb(238, 240, 234)
+}
+body{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.bolder{
+    color:tomato;
+}
+.paragraph{
+    font-size: 18px;
+}
+.paragraph::first-letter{
+    font-size: 24px;
+    background: pink;
+}
+</style>
+<body>
+    <h1>SASS</h1>
+    <p class="paragraph"><strong>SASS</strong> służy do budowania złożonych stylów. <br> 
+    Możemy definiować zmienne przy użyciu znaku <b class="bolder">$</b>.
+    </p>
+    <img src="img/sass $.png" >
+    <p class="paragraph">Funkcja <b class="bolder">@mixin</b> tworzy zestaw reguł CSS w formie funcji , którą możemy wywołać
+    przez <b class="bolder">@include</b>.
+    </p>
+    <img src="img/@mixin @include.png" alt="@mixin & $include">
+
+</body>
+</html>
