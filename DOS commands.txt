@@ -1,0 +1,10 @@
+cls - clear screen
+dir/d - skrócona lista
+rmdir/s - usuwa katalog z zawartoœci¹ 
+rmdir/q - usuwa katalog z zawartoœci¹ bez potwierdzenia [quiet mode]
+del - usuwanie pliku / folderu
+del/q - usuwanie pliku / folderu bez potwierdzenia [quiet mode]
+**Tworzenie pliku**
+1. Otwór konsole jako administrator
+2. Wpisz: fsutil file createnew file.txt 1000<-rozmiar w byteach
+*******************
