@@ -24,7 +24,18 @@
         text-align: center;
         font-weight: bold;
     }
-
+    .image{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .image--shadow{
+        box-shadow: 7px 7px 8px black;
+        margin-bottom: 30px;
+    }
     .link {
         text-decoration: none;
         font-weight: bold;
@@ -62,6 +73,23 @@
         poleceniem <br> <b class="bold">"npm  init -y"</b> jeżeli nie chcemy wypełniać właściwości lub <b class="bold">"npm  init"</b>.
         Dla każdego folderu trzeba przeprowadzić oddzielną inicjalizację.
     </p>
+    <p class="paragraph">W momencie inicjalizacji tworzy się folder <b class="bold">node_modules</b> są tam przechowywane pliki modułów 
+    tego folderu nie commitujemy ponieważ jest "ciężki i zawiera niepotrzebne elementy". Git ignoruje pliki i foldery zapisane w pliku 
+    <b class="bold">.gitignore</b>. Tworzymy taki plik w edytorze kodu, otwieramy go i w pierwszej linijce wpisujemy <b class="bold">node_modules</b>
+    i pozostawiamy wolną linijkę kodu. Zapisujemy plik i od tej pory folder node_modules nie będzie uwzględniany przez gita. Opcja ta może być wykorzystywana
+    do każdego elementu, którego nie chcemy commitować.</p>
+    <p class="paragraph"> Razem z pakietami instalują się także pliki <b class="bold">package-lock.json i package.json</b>
+     zawierają one informacje o zainstalowanych pakietach i ich autentyczności. Możemy skasować cały folder <b class="bold">node_modules</b> po czym możemy przywrócić
+     poleceniem <b class="bold">npm  install</b> .
+    </p>
+    <p class="paragraph">Przykładowe użycie pakietu <b>npm "moment"</b>. Po pobraniu pakietu tworzymy plik JS np. <b>nodetest.js</b> po czym wpisujemy 
+        kod przykładowo taki jak poniżej.
+    </p>
+    
+    <div class="image">
+        <img class="image--shadow" src="img/moment_package_code.png" >
+        <img class="image--shadow" src="img/monent_package.png">
+    </div>
 </body>
 
 </html>
