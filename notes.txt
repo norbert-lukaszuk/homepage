@@ -1,0 +1,6 @@
+npm install gulp-cli--global instalacja gulpa wersja dlu¿sza
+npm install -g - gulp-cli instalacja gulpa (raz na ca³y system)
+npm install - w ka¿dym nowym katalagu projektu 
+gulp - przed rozpoczêciem pracy nad projektem 
+_variables.scss - tu definiujemy wszystkie zmienne 
+@import "_variables" - importujemy zmienne do g³ównego pliku stylów
