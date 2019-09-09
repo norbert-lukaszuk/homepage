@@ -134,7 +134,11 @@ h1 {
     
 }
 .navigationList{
-    display: none;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    position: fixed;
 }
 .navigationList--js{
     list-style: none;
@@ -149,5 +153,8 @@ Funkcja potrzebna do wyświetlania na mobilkach */
 @media (max-width:640px){
     .grid{
         grid-template-columns: 1fr;
+    }
+    .navigationList{
+        flex-direction: column;
     }
 }
